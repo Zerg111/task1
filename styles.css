@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: -11px 17px 14px rgb(0 0 0 / 50%);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.info p {
+color: #86898f;
+margin: 0;
+font-style: italic;
+font-weight: bold;
+text-decoration: none;
+}
+
+.social {
+    background-color:  #EFA94A;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.socialLink {
+    max-width: 300px;
+    margin: auto;
+    
+}
+
+.socialLink img {
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: -11px 17px 14px rgb(0 0 0 / 50%);
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #86898f;
+}
+
+.tasks {
+    background-color: #FFD1DC;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.time {
+    background-color: #FF8C69;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.courses {
+    background-color: #C6DF90;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.info {
+    display: flex;
+}
